@@ -1,0 +1,61 @@
+.mil-preloader.mil-hidden {
+  pointer-events: none;
+}
+.mil-preloader {
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: #1a1a1a;
+}
+.mil-preloader .mil-preloader-animation {
+  opacity: 0;
+  position: relative;
+  height: 100vh;
+  color: #fff;
+}
+.mil-preloader .mil-preloader-animation .mil-pos-abs {
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.mil-preloader .mil-preloader-animation .mil-pos-abs p {
+  opacity: 0;
+  margin-right: 15px;
+  font-size: 40px;
+}
+.mil-muted {
+  color: rgba(255, 255, 255, 0.9);
+}
+.mil-thin {
+  font-weight: 100;
+}
+.mil-preloader .mil-preloader-animation .mil-pos-abs p:last-child {
+  margin-right: 0;
+}
+.mil-preloader .mil-preloader-animation .mil-pos-abs .mil-reveal-frame {
+  position: relative;
+  padding: 0 30px;
+}
+.mil-preloader
+  .mil-preloader-animation
+  .mil-pos-abs
+  .mil-reveal-frame
+  .mil-reveal-box {
+  z-index: 99999;
+  position: absolute;
+  opacity: 0;
+  height: 100%;
+  background-color: #e8bf96;
+}

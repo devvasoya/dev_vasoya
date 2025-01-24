@@ -1,0 +1,53 @@
+.slider {
+  display: flex;
+}
+.container-fulid {
+  width: 1300px;
+  margin: 0px auto;
+}
+.slider .card {
+  flex: 1;
+  margin: 0 10px;
+  background: transparent;
+  border: transparent;
+}
+.slider .card .img {
+  height: auto;
+  width: 100%;
+}
+.slider .card .img img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 15px;
+}
+.slider .card .content {
+  margin-top: 38px;
+  margin-bottom: 18px;
+}
+.card span a {
+  height: 34px;
+  text-decoration: none;
+  display: inline-block;
+  border: 1px solid #1c3f39;
+  background: #e8bf96;
+  color: #222222;
+  line-height: 35px;
+  padding: 0 24px;
+  border-radius: 30px 5px 5px 5px;
+}
+.card h3 {
+  font-size: 24px;
+  color: white;
+}
+.card h3:hover {
+  color: #e8bf96;
+}
+.port-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 27px;
+  opacity: 1;
+  transition: 0.5s;
+}
